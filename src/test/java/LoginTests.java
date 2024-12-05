@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class LoginTests {
     private SHAFT.GUI.WebDriver driver;
     private SHAFT.TestData.JSON testdata;
- //   SHAFT.TestData.JSON testData;
+  SHAFT.TestData.JSON testData;
     SHAFT.TestData.EXCEL excelData;
 
     @Test(description = "Login User Test")
@@ -25,7 +25,7 @@ public class LoginTests {
     public void OpenBrowser() {
         driver = new SHAFT.GUI.WebDriver();
         driver.browser().navigateToURL("https://automationexercise.com/login");
-     //   testData = new SHAFT.TestData.JSON(SHAFT.Properties.paths.testData() + "testData.json");
+     testData = new SHAFT.TestData.JSON(SHAFT.Properties.paths.testData() + "testData.json");
         excelData=new SHAFT.TestData.EXCEL(SHAFT.Properties.paths.testData() + "testExcel.xlsx");
     }
 
