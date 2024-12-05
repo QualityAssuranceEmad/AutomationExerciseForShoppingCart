@@ -1,0 +1,12 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                  Test Method: 'LoginTests.loginAndAddProduct'                                                  
+                                             Test Description: 'Login User Test - API - Time Stamp'                                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Type "Email Address" @05-12-2024 12:45:58.0474 PM
+[ReportManager] Type "Password" @05-12-2024 12:45:58.0799 PM
+[ReportManager] Click "Login" @05-12-2024 12:46:20.0634 PM
+[ReportManager] Click " MEN" @05-12-2024 12:46:21.0314 PM
+[ReportManager] Click "TSHIRTS" @05-12-2024 12:46:25.0226 PM
