@@ -10,7 +10,7 @@ public class LoginTests {
     SHAFT.TestData.JSON testData;
     SHAFT.TestData.EXCEL excelData;
 
-    @Test(description = "Login User Test")
+    @Test(description = "Login User Testt")
     @Description("Given that I am a login as a user, When I click in Login button, " +
             "And I entered valid email and valid password, And I clicked on Login button," +
             " Then I should be logged in successfully to the system homepage")
