@@ -13,7 +13,7 @@ public class LoginTests {
     @Test(description = "Login User Test")
     @Description("Given that I am a login as a user, When I click in Login button, " +
             "And I entered valid email and valid password, And I clicked on Login button," +
-            " Then I should be logged in successfully to the system")
+            " Then I should be logged in successfully to the system homepage")
     public void loginAndAddProduct() {
         new LoginPage(driver).login(excelData.getCellData("userName"),excelData.getCellData("password")).
                 HomepageTshirtProducts();
