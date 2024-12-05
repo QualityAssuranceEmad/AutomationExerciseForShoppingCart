@@ -10,9 +10,10 @@ public class HomePage {
     By MenButton = By.xpath("//a[@href='#Men']");
     By TeshirtsButton = By.xpath("//a[@href='/category_products/3'] [contains(.,'Tshirts ')]");
 
-    public void HomepageTshirtProducts()
+    public ProductsPage HomepageTshirtProducts()
     {
         driver.element().click(MenButton).and().click(TeshirtsButton);
+        return new ProductsPage(driver);
 
     }
 }

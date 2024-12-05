@@ -16,7 +16,7 @@ public class LoginTests {
             " Then I should be logged in successfully to the system homepage")
     public void loginAndAddProduct() {
         new LoginPage(driver).login(excelData.getCellData("userName"),excelData.getCellData("password")).
-                HomepageTshirtProducts();
+                HomepageTshirtProducts().addProductsToCart().checkCart();
 
     }
 
